@@ -1,0 +1,8 @@
+.button-primary{
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #005FAC;
+    font-weight: bold;
+}

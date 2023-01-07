@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+/* header css */
+.hero-image{
+   
+    background-image: url("../images/banner/banner3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 768px;
+    width: 1366px;
+}
+
+.hero-text{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align:end;
+    margin-top: 216px;
+    margin-right: 230px;
+    margin-left: 50%;
+    /* border: 1px solid #333; */
+    
+    
+}
+
+.hero-text>h3{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
