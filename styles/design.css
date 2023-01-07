@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
 /* font-family: 'Work Sans', sans-serif; */
 /* header css */
-.hero-image{
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-image{
    
     background-image: url("../images/banner/banner3.png");
     background-position: center;
@@ -12,7 +16,7 @@
     width: 1366px;
 }
 
-.hero-text{
+.banner-text{
     font-family: 'Work Sans', sans-serif;
     color: white;
     text-align:end;
@@ -24,8 +28,38 @@
     
 }
 
-.hero-text>h3{
+header{
+    border: 1px solid transparent;
+    padding: 10px 50px;
+}
+
+.banner-text>h3{
     font-size: 48px;
     font-weight: bolder;
 }
 
+.my-failures{
+    margin: 939px 180px 0px 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 87px;
+    
+}
+
+#lady-image{
+    height: 500px;
+}
+
+.child-two>p{
+    width: auto;
+    
+}
+
+.child-two{
+    padding-top: 100px;
+}
+
+.fa-regular{
+    color: blue;
+}
