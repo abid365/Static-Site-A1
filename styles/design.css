@@ -5,6 +5,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body, html{
+    width: 1600px;
+    
+}
+
 .banner-image{
    
     background-image: url("../images/banner/banner3.png");
@@ -38,6 +43,12 @@ header{
     font-weight: bolder;
 }
 
+/* main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
 .my-failures{
     margin: 939px 180px 0px 180px;
     display: flex;
@@ -62,4 +73,32 @@ header{
 
 .fa-regular{
     color: blue;
+}
+
+.my-plans{
+    margin: 100px 180px 0px 180px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+    
+}
+
+.my-plan-text{
+    text-align: center;
+}
+
+.child-plans{
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid #333; */
+    text-align: center;
+}
+
+.stack-image{
+    height: 70px;
+    width: 70px;
 }
