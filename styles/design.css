@@ -102,3 +102,53 @@ header{
     height: 70px;
     width: 70px;
 }
+
+/* gradient image */
+.watch-banner{
+    margin: 100px 230px;
+}
+
+.watch-bg{
+    /* background-image:url("../images/watch.png"); */
+    /* margin: 100px 230px; */
+    /* made the parent relative in order to put text over multiple stacked photos */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 1140px;
+    height: 300px;
+    /* z-index: -1; */
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    
+}
+
+.watch-text{
+    position:absolute;
+    z-index: 3;
+    padding: 30px 50px;
+    color:aliceblue;
+    font-size: 20px;
+    
+}
+
+
+.image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    
+  }
+  .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+
